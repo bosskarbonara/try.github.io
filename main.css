@@ -1,0 +1,38 @@
+:root {
+    --bg-clr-primary: #ff47a6;
+    --bg-clr-primary-hov: bisque;
+
+}
+body {
+   background-color: skyblue;
+}
+header{
+    background-color:darkblue;
+   background-attachment:;
+   width: 100%;
+   height:20%;
+
+    box-shadow: 0 0 3px;
+}
+header a{
+    display: iniline;
+    
+    text-decoration: none;
+    transition: .3s ease;
+    color: #333;
+    font-style:arial;
+    margin-left: 250px;
+    padding-top: 20%;
+}
+header a:hover{
+    color:skyblue;
+
+}
+header #contact a{
+    color: #fff;
+    background-color: black;
+    border-radius: 40px;
+    overflow-x: hidden;
+   
+
+}
